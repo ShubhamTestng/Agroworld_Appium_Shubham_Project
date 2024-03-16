@@ -12,11 +12,11 @@
   <name>Appiumtest</name>
   <url>http://www.example.com</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-  </properties>
+<properties>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <maven.compiler.source>11</maven.compiler.source>
+  <maven.compiler.target>11</maven.compiler.target>
+</properties>
 
   <dependencies>
     <dependency>
@@ -104,32 +104,40 @@
     <version>2.11.0</version> <!-- Use the latest version -->
 </dependency>
 
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.22</version>
+    <scope>provided</scope>
+</dependency>
+
+
   </dependencies>
 
- <build>
-    <plugins>
-        <!-- Existing Maven Surefire Plugin Configuration -->
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.0.0-M5</version>
-        </plugin>
-
-        <!-- Maven Compiler Plugin Configuration with Additional Compiler Arguments -->
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.1</version>
-            <configuration>
-                <release>11</release> <!-- Adjust this to match your Java version -->
-                <compilerArgs>
-                    <arg>--add-opens=java.base/java.lang=ALL-UNNAMED</arg>
-                    <arg>--add-opens=java.base/java.util=ALL-UNNAMED</arg>
-                    <!-- Add more lines as necessary based on the access requirements of your project -->
-                </compilerArgs>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
+	 <build>
+	    <plugins>
+	        <!-- Existing Maven Surefire Plugin Configuration -->
+	        <plugin>
+	            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-surefire-plugin</artifactId>
+	            <version>3.0.0-M5</version>
+	        </plugin>
+	
+	        <!-- Maven Compiler Plugin Configuration with Additional Compiler Arguments -->
+	        <plugin>
+	            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-compiler-plugin</artifactId>
+	            <version>3.8.1</version>
+	            <configuration>
+	                <release>11</release> <!-- Adjust this to match your Java version -->
+	                <compilerArgs>
+	                    <arg>--add-opens=java.base/java.lang=ALL-UNNAMED</arg>
+	                    <arg>--add-opens=java.base/java.util=ALL-UNNAMED</arg>
+	                    <!-- Add more lines as necessary based on the access requirements of your project -->
+	                </compilerArgs>
+	            </configuration>
+	        </plugin>
+	    </plugins>
+	</build>
 
 </project>
