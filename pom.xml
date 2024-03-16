@@ -129,6 +129,9 @@
 	            <artifactId>maven-compiler-plugin</artifactId>
 	            <version>3.8.1</version>
 	            <configuration>
+					 <suiteXmlFiles>
+                    <suiteXmlFile>CreateLead.xml</suiteXmlFile>
+                </suiteXmlFiles>
 	                <release>11</release> <!-- Adjust this to match your Java version -->
 	                <compilerArgs>
 	                    <arg>--add-opens=java.base/java.lang=ALL-UNNAMED</arg>
