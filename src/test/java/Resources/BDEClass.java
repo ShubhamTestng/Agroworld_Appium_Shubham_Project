@@ -1,6 +1,7 @@
 package Resources;
 import org.apache.logging.log4j.LogManager;
 
+
 import org.apache.logging.log4j.Logger;
 import io.appium.java_client.android.AndroidDriver;
 
@@ -26,9 +27,6 @@ import org.openqa.selenium.interactions.PointerInput;
 import org.openqa.selenium.interactions.Sequence;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import com.mongodb.util.Util;
-
 
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
