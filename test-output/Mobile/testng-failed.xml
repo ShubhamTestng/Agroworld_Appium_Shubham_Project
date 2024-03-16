@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="100" name="Failed suite [Mobile]" guice-stage="DEVELOPMENT">
+  <test thread-count="100" name="iOSApp 1(failed)">
+    <classes>
+      <class name="Resources.iOSApp">
+        <methods>
+          <include name="iOSApp"/>
+        </methods>
+      </class> <!-- Resources.iOSApp -->
+    </classes>
+  </test> <!-- iOSApp 1(failed) -->
+</suite> <!-- Failed suite [Mobile] -->
