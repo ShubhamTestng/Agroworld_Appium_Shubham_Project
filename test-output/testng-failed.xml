@@ -6,17 +6,21 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Resources.COOClass">
+      <class name="Resources.BDEClass">
         <methods>
-          <include name="getLogout"/>
-          <include name="initializeUtility"/>
+          <include name="addMeetingForProspect"/>
+          <include name="prospect"/>
+          <include name="addLeadComapnyDeatail"/>
+          <include name="todaysFollowup"/>
           <include name="ExtentReport"/>
           <include name="endReport"/>
           <include name="setUp"/>
+          <include name="initializeUtility"/>
+          <include name="getLogout"/>
           <include name="globalTeardown"/>
-          <include name="clientConversionRequestAccept"/>
+          <include name="productDetails"/>
         </methods>
-      </class> <!-- Resources.COOClass -->
+      </class> <!-- Resources.BDEClass -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

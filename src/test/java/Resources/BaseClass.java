@@ -2,6 +2,7 @@ package Resources;
 
 import java.net.URL;
 
+
 import java.net.UnknownHostException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -29,6 +30,8 @@ import org.testng.annotations.Test;
 
 import extentManager.ExtentManager;
 
+//import extentManager.ExtentManager;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 //import extentManager.ExtentManager;
@@ -45,23 +48,8 @@ public class BaseClass {
 
 	
 
-	private static String executeShellCommand(String command) throws IOException {
-        StringBuilder output = new StringBuilder();
-        Process process = Runtime.getRuntime().exec(command);
-        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-        String line;
-        while ((line = reader.readLine()) != null) {
-            output.append(line).append("\n");
-        }
-        return output.toString();
-    }
 
-    private static void printAppSizes(String packageName) throws IOException {
-        String command = "adb shell dumpsys package " + packageName + " | grep -E 'DataSize|CacheSize|CodeSize|ExternalDataSize'";
-        String output = executeShellCommand(command);
-        System.out.println(output);
-    }
-	
+
 	
 	@BeforeSuite
 	public void setUp() throws IOException, InterruptedException {
@@ -82,8 +70,7 @@ public class BaseClass {
 
         // Print sizes before clearing app data
         System.out.println("Before clearing app data:");
-        printAppSizes(appPackage);
-
+      
         // Clear app data
         Runtime.getRuntime().exec("adb shell pm clear " + appPackage);
        
@@ -91,7 +78,7 @@ public class BaseClass {
 
         // Print sizes after clearing app data
         System.out.println("After clearing app data:");
-        printAppSizes(appPackage);
+    
 		
 		DesiredCapabilities caps = new DesiredCapabilities();
 

@@ -3,9 +3,7 @@
 <suite name="Suite">
 	
   <listeners>
-	  
     <listener class-name="Listener.ListenerClass"/>
-    
   </listeners>
 	
    <test thread-count="5" name="Test">
@@ -14,8 +12,6 @@
 		
 		<class name="Resources.BaseClass"></class>
 		<class name="Resources.BDEClass"></class>
-		<class name="Resources.BDMClass"></class>
-		<class name="Resources.COOClass"></class>
 		
 	</classes>   
  

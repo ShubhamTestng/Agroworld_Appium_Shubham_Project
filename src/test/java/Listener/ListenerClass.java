@@ -35,7 +35,12 @@ public class ListenerClass extends ExtentManager implements ITestListener
 
 			  String screenshotPath = BaseClass.screenShot(BaseClass.appiumdriver, result.getName()); 
 
-			  test.addScreenCaptureFromPath(screenshotPath);
+			  try {
+				test.addScreenCaptureFromPath(screenshotPath);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		  	}
 	 }
 	 
