@@ -1,21 +1,23 @@
-[INFO ] 2024-03-16 12:45:08.992 [main] BDEClass - BDE Logged in
-[INFO ] 2024-03-16 12:45:14.110 [main] BDEClass - and today follow up0
-[INFO ] 2024-03-16 12:45:14.111 [main] BDEClass - Initai ciounter before adding lead in todays followup0
-[INFO ] 2024-03-16 12:46:56.079 [main] BDEClass - prodcut added
-[INFO ] 2024-03-16 12:46:57.354 [main] BDEClass - prodcut added
-[INFO ] 2024-03-16 12:47:03.380 [main] BDEClass - and today follow up0
-[INFO ] 2024-03-16 12:47:13.917 [main] BDEClass - Meeting button is diabled
-[INFO ] 2024-03-16 12:47:51.745 [main] BDEClass - BDM send request convert to potentail
-[INFO ] 2024-03-16 12:48:18.688 [main] BDEClass - BDE Taken todays follow up
-[INFO ] 2024-03-16 12:48:25.508 [main] BDEClass - BDE Logged OUT
-[INFO ] 2024-03-16 12:48:37.600 [main] BDMClass - BDM Logged in
-[INFO ] 2024-03-16 12:49:15.301 [main] BDMClass - potentail has clciked
-[INFO ] 2024-03-16 12:50:42.342 [main] BDMClass - Meeting escalation flag is not present.
-[INFO ] 2024-03-16 12:50:59.147 [main] BDMClass - potentail has clciked
-[INFO ] 2024-03-16 12:51:01.956 [main] BDMClass - BDM gone though scrollpage
-[INFO ] 2024-03-16 12:51:17.998 [main] BDMClass - BDM Convrted lead from potential to client
-[INFO ] 2024-03-16 12:51:26.737 [main] BDMClass - BDM Logged out
-[INFO ] 2024-03-16 12:51:35.666 [main] COOClass - COO Logged IN
-[INFO ] 2024-03-16 12:51:47.545 [main] COOClass - potentail has clciked in COO Account
-[INFO ] 2024-03-16 12:51:50.723 [main] COOClass - Meeting creations are correctly displayed in activity logs 
-[INFO ] 2024-03-16 12:51:52.503 [main] COOClass - meeting start button clicked
+[INFO ] 2024-03-18 09:57:21.558 [main] BDEClass - BDE Logged in
+[INFO ] 2024-03-18 09:57:26.660 [main] BDEClass - and today follow up0
+[INFO ] 2024-03-18 09:57:26.661 [main] BDEClass - Initai ciounter before adding lead in todays followup0
+[INFO ] 2024-03-18 09:59:13.048 [main] BDEClass - prodcut added
+[INFO ] 2024-03-18 09:59:14.638 [main] BDEClass - prodcut added
+[INFO ] 2024-03-18 09:59:19.173 [main] BDEClass - and today follow up0
+[INFO ] 2024-03-18 09:59:31.816 [main] BDEClass - Meeting button is diabled
+[INFO ] 2024-03-18 10:00:11.254 [main] BDEClass - BDM send request convert to potentail
+[INFO ] 2024-03-18 10:00:37.279 [main] BDEClass - BDE Taken todays follow up
+[INFO ] 2024-03-18 10:00:47.071 [main] BDEClass - BDE Logged OUT
+[INFO ] 2024-03-18 10:00:58.842 [main] BDMClass - BDM Logged in
+[INFO ] 2024-03-18 10:01:48.519 [main] BDMClass - potentail has clciked
+[INFO ] 2024-03-18 10:03:25.431 [main] BDMClass - Meeting escalation flag is not present.
+[INFO ] 2024-03-18 10:03:43.037 [main] BDMClass - potentail has clciked
+[INFO ] 2024-03-18 10:03:45.642 [main] BDMClass - BDM gone though scrollpage
+[INFO ] 2024-03-18 10:04:02.484 [main] BDMClass - BDM Convrted lead from potential to client
+[INFO ] 2024-03-18 10:04:11.756 [main] BDMClass - BDM Logged out
+[INFO ] 2024-03-18 10:04:21.765 [main] COOClass - COO Logged IN
+[INFO ] 2024-03-18 10:04:32.850 [main] COOClass - potentail has clciked in COO Account
+[INFO ] 2024-03-18 10:04:36.316 [main] COOClass - Meeting creations are correctly displayed in activity logs 
+[INFO ] 2024-03-18 10:04:38.140 [main] COOClass - meeting start button clicked
+[INFO ] 2024-03-18 10:05:52.138 [main] COOClass - Request to Clinet is approved from COO
+[INFO ] 2024-03-18 10:06:06.226 [main] COOClass - COO Logged OUT
